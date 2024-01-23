@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34316.72
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Revvy_1", "Revvy_1\Revvy_1.csproj", "{5C866AEE-D9E6-4B06-A875-078B1E797259}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Revvy_2", "Revvy_2\Revvy_2.csproj", "{761F1590-D1B1-48A7-ADA0-5F60BAC29FA3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5C866AEE-D9E6-4B06-A875-078B1E797259}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C866AEE-D9E6-4B06-A875-078B1E797259}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C866AEE-D9E6-4B06-A875-078B1E797259}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C866AEE-D9E6-4B06-A875-078B1E797259}.Release|Any CPU.Build.0 = Release|Any CPU
+		{761F1590-D1B1-48A7-ADA0-5F60BAC29FA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{761F1590-D1B1-48A7-ADA0-5F60BAC29FA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{761F1590-D1B1-48A7-ADA0-5F60BAC29FA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{761F1590-D1B1-48A7-ADA0-5F60BAC29FA3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {86BF36A3-BE7B-44AE-9A3D-71C821472637}
+	EndGlobalSection
+EndGlobal
