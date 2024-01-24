@@ -1,6 +1,6 @@
 ﻿namespace Revvy_1
 {
-    internal class OfficialGroupBuilder<T>
+    public class OfficialGroupBuilder<T>
         where T : IOfficialGroup, new()
     {
         private List<Official> _officials = [];
