@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Revvy_1", "Revvy_1\Revvy_1.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Revvy_2", "Revvy_2\Revvy_2.csproj", "{761F1590-D1B1-48A7-ADA0-5F60BAC29FA3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestxUnit", "TestxUnit\TestxUnit.csproj", "{9DB7968C-A451-42FB-90DD-01F7B35FDBDA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{761F1590-D1B1-48A7-ADA0-5F60BAC29FA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{761F1590-D1B1-48A7-ADA0-5F60BAC29FA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{761F1590-D1B1-48A7-ADA0-5F60BAC29FA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DB7968C-A451-42FB-90DD-01F7B35FDBDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DB7968C-A451-42FB-90DD-01F7B35FDBDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DB7968C-A451-42FB-90DD-01F7B35FDBDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DB7968C-A451-42FB-90DD-01F7B35FDBDA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

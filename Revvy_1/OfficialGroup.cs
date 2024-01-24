@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Linq;
-using System.Text;
-namespace Revvy_1
+﻿namespace Revvy_1
 {
-    internal class OfficialGroup : IOfficialGroup
+    public class OfficialGroup : IOfficialGroup
     {
         private Dictionary<int, List<int>> _officialGraph;
 
