@@ -4,42 +4,22 @@
     {
         public static bool SearchSum(List<int> list, int N)
         {
-            int middle = (list.Count - 1) / 2;
+            HashSet<int> possibleSums = [];
 
-            HashSet<int> possibleSumsLeft = [];
-            HashSet<int> possibleSumsRight = [];
-
-            for (int i = 0; i < middle; i++)
+            for (int i = 0; i < list.Count; i++)
             {
                 HashSet<int> buffer = [];
 
-                foreach (int sum in possibleSumsLeft)
+                foreach (int sum in possibleSums)
                     buffer.Add(list[i] + sum);
 
-                possibleSumsLeft.Add(list[i]);
+                possibleSums.Add(list[i]);
 
                 foreach (int bufSum in buffer)
-                    possibleSumsLeft.Add(bufSum);
+                    possibleSums.Add(bufSum);
             }
 
-            for (int i = middle; i < list.Count; i++)
-            {
-                HashSet<int> buffer = [];
-
-                foreach (int set_element in possibleSumsRight)
-                    buffer.Add(list[i] + set_element);
-
-                possibleSumsRight.Add(list[i]);
-
-                foreach (int bufSum in buffer)
-                    possibleSumsRight.Add(bufSum);
-            }
-
-            foreach (int leftSum in possibleSumsLeft)
-                if (possibleSumsRight.Contains(N - leftSum))
-                    return true;
-
-            return false;
+            return possibleSums.Contains(N);
         }
     }
 }
